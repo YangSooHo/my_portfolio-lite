@@ -363,6 +363,7 @@ function App() {
                   <li><LogoWithText logo={'https://ko.vite.dev/logo.svg'} logoText={'Vite'}><strong className='text-2xl min-w-44 inline-flex'>Vite</strong> | <span className={'text-2xl'}>포트폴리오 프로젝트를 빌드 하기위한 Tool</span></LogoWithText></li>
                   <li><LogoWithText logo={'https://bolt.new/static/favicon.svg'} logoText={'Bolt New'}><strong className='text-2xl min-w-44 inline-flex'>Bolt New</strong> | <span className={'text-2xl'}>포트폴리오 초안 작업 진행</span></LogoWithText></li>
                   <li><LogoWithText logo={'https://tailwindcss.com/favicon.ico'} logoText={'Tailwind CSS'}><strong className='text-2xl min-w-44 inline-flex'>Tailwind CSS</strong> | <span className={'text-2xl'}>레이아웃 디자인에 사용된 CSS</span></LogoWithText></li>
+                  <li><LogoWithText logo={'https://github.githubassets.com/favicons/favicon.svg'} logoText={'gh-pages'}><strong className='text-2xl min-w-44 inline-flex'>gh-pages</strong> | <span className={'text-2xl'}>깃허브 페이지에 빌드하기 위한 라이브러리</span></LogoWithText></li>
                 </ul>
               </div>
             </div>
