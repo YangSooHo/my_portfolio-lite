@@ -7421,7 +7421,7 @@ function App() {
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "양수호" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-2xl text-gray-600 mb-8 font-light", children: "풀스택 개발자" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-2xl text-gray-600 mb-8 font-light font-bold", children: "풀스택 개발자" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://github.com/YangSooHo", className: "text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 28 }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "mailto:ysh5586@naver.com", className: "text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 28 }) }),
@@ -7522,7 +7522,7 @@ function App() {
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "img",
               {
-                src: "http://www.safesoft.co.kr/bizdemo115364/img/cdms_img_01.png",
+                src: "images/cdms.png",
                 alt: "RedPineCDMS",
                 className: "w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
               }
@@ -7620,7 +7620,7 @@ function App() {
                 className: "w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#", className: "p-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://lms.dtncro.co.kr/", className: "p-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "전자 교육 관리 시스템" }),
