@@ -41,7 +41,7 @@ function App() {
             className="w-40 h-40 rounded-full mb-8 border-4 border-blue-400/50 shadow-lg shadow-blue-500/30"
           />
           <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">양수호</h1>
-          <p className="text-2xl text-gray-600 mb-8 font-light">풀스택 개발자</p>
+          <p className="text-2xl text-gray-600 mb-8 font-light font-bold">풀스택 개발자</p>
           <div className="flex gap-6">
             <a href="https://github.com/YangSooHo" className="text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110">
               <Github size={28} />
@@ -163,7 +163,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                    src="http://www.safesoft.co.kr/bizdemo115364/img/cdms_img_01.png"
+                    src="images/cdms.png"
                     alt="RedPineCDMS"
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -264,7 +264,7 @@ function App() {
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <a href="#" className="p-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+                    <a href="https://lms.dtncro.co.kr/" className="p-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
                       <ExternalLink size={20} className="text-blue-600" />
                     </a>
                   </div>
