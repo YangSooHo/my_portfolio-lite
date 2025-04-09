@@ -197,7 +197,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                    src="/images/isoms.png"
+                    src="images/isoms.png"
                     alt="ISO 관리 시스템"
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -229,7 +229,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                      src="/images/sop.png"
+                      src="images/sop.png"
                       alt="eSOP"
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -259,7 +259,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                      src="/images/lms.png"
+                      src="images/lms.png"
                       alt="ISO 관리 시스템"
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -289,7 +289,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                      src="/images/send_interface.png"
+                      src="images/send_interface.png"
                       alt="의료기기-비임상 인터페이스"
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -319,7 +319,7 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="relative">
                   <img
-                      src="/images/ssms.png"
+                      src="images/ssms.png"
                       alt="시험 일정 관리 시스템"
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
