@@ -38,7 +38,7 @@ function App() {
           <img
             src="images/ysh_profile.jpg"
             alt="프로필 사진"
-            className="w-40 h-40 rounded-full mb-8 border-4 border-blue-400/50 shadow-lg shadow-blue-500/30"
+            className="w-40 h-50 rounded-full mb-8 border-4 border-blue-400/50 shadow-lg shadow-blue-500/30"
           />
           <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">양수호</h1>
           <p className="text-2xl text-gray-600 mb-8 font-light font-bold">풀스택 개발자</p>
