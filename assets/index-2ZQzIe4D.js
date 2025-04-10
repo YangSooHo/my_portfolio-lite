@@ -7415,7 +7415,7 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "img",
         {
-          src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200&h=200",
+          src: "images/profile/YSH_Profile.png",
           alt: "프로필 사진",
           className: "w-40 h-40 rounded-full mb-8 border-4 border-blue-400/50 shadow-lg shadow-blue-500/30"
         }
