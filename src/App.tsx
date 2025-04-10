@@ -36,7 +36,7 @@ function App() {
         {/* Hero Section */}
         <header className="container mx-auto px-4 py-32 flex flex-col items-center text-center">
           <img
-            src="images/profile/YSH_Profile.png"
+            src="images/ysh_profile.jpg"
             alt="프로필 사진"
             className="w-40 h-40 rounded-full mb-8 border-4 border-blue-400/50 shadow-lg shadow-blue-500/30"
           />
