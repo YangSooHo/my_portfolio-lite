@@ -7308,16 +7308,6 @@ const Briefcase = createLucideIcon("Briefcase", [
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const CheckSquare2 = createLucideIcon("CheckSquare2", [
-  ["rect", { width: "18", height: "18", x: "3", y: "3", rx: "2", key: "afitv7" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
-]);
-/**
- * @license lucide-react v0.344.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
 const Code2 = createLucideIcon("Code2", [
   ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
   ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
@@ -7394,15 +7384,6 @@ const Settings = createLucideIcon("Settings", [
   ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
 ]);
 function App() {
-  const SquareWithText = ({ children }) => {
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(CheckSquare2, { size: 20, className: "text-green-500 inline" }),
-      " ",
-      children,
-      " ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
-    ] });
-  };
   const LogoWithText = ({ logo, logoText, children }) => {
     return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logo, alt: logoText, width: 32, className: "text-blue-300 inline" }),
@@ -7421,13 +7402,21 @@ function App() {
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "양수호" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-2xl text-gray-600 mb-8 font-light font-bold", children: "풀스택 개발자" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-2xl text-gray-600 mb-8 font-bold", children: "풀스택 개발자" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://github.com/YangSooHo", className: "text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 28 }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "mailto:ysh5586@naver.com", className: "text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 28 }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.linkedin.com/in/%EC%88%98%ED%98%B8-%EC%96%91-67045a35b/", className: "text-gray-600 hover:text-blue-600 transition-all transform hover:scale-110", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Linkedin, { size: 28 }) })
       ] })
     ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-16 bg-white/80", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-10 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "소개" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-700 leading-relaxed mb-6", children: "임상 데이터 관리 시스템 개발 및 메타데이터, 대용량 데이터 처리에 특화된 풀스택 개발자입니다. Spring Boot, Thymeleaf, Apache Freemarker, React, MongoDB, MS SQL Server 등의 기술을 활용하여 안정적이고 확장 가능한 솔루션을 제공합니다." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-700 leading-relaxed mb-6", children: "Agile 방법론을 활용한 실시간 요구사항 대응 및 유연한 개발 프로세스에 능숙하며, CDISC ODM-XML 표준 인증 작업을 성공적으로 완료한 경험이 있습니다." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-700 leading-relaxed", children: "임상 시험 데이터 관리, 교육 관리 시스템, 표준 업무 절차 시스템 등 다양한 의료/제약 관련 시스템 개발 경험을 보유하고 있습니다." })
+      ] })
+    ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 bg-white/50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "기술 스택" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto", children: [
@@ -7440,7 +7429,7 @@ function App() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "HTML5 / CSS3" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Thymeleaf / JSP" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Apache Freemarker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "tailwind CSS / Bootstrap" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Tailwind CSS / Bootstrap" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Ant Design" })
           ] })
         ] }),
@@ -7448,11 +7437,13 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-12 h-12 mb-6 text-blue-600 mx-auto" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-center text-gray-800", children: "Back-end" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 text-center", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Python" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Java / Spring Boot" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Mybatis" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MongoDB" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MySQL" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MS SQL Server" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Python" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Node.js" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Redis Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MS SQL Server / MySQL" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "RESTful API" })
           ] })
         ] }),
@@ -7460,11 +7451,13 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-12 h-12 mb-6 text-blue-600 mx-auto" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-center text-gray-800", children: "DevOps" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 text-center", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Jenkins" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MS Azure / Docker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Jenkins / GitHub Actions" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "GitHub Actions" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Linux / Shell Script" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Monitoring / Logging" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "NGiNX" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "NGiNX" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Redis Server" })
           ] })
         ] })
       ] })
@@ -7477,30 +7470,14 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "풀스택 개발자" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-600 mb-4", children: "(주)디티앤씨알오 • 2024.07 - 2024.12" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-2 list-disc list-inside", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 list-disc list-inside", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
                 "임상 데이터 관리 시스템 관리 및 유지보수",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- 관리자 콘솔(Admin Console) 관리 및 의료 코딩 관련 사전 관리 진행(MedDRA, ATC Index 등) ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 빌더 시스템(Builder)의 운영 및 정기적인 유지보수,",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 전자 데이터 수집(EDC) 시스템의 운영 및 정기적인 유지보수,",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 장애 대응 및 버그 수정 및 시스템 업데이트를 수행하였습니다."
-                ] })
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- 관리자 콘솔(Admin Console) 및 의료 코딩 관련 사전(MedDRA, ATC Index 등) 관리 - 빌더 시스템(Builder) 및 전자 데이터 수집(EDC) 시스템 운영 및 유지보수 - 장애 대응 및 버그 수정, 시스템 업데이트 수행" })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "임상 데이터 관리 시스템 구조도 설계",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- Figma 기반의 내부 개발자 전용 임상 데이터 관리 시스템 구조도 설계." })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "개발 팀 리드 및 개발자 총괄 멘토링",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- 임상 데이터 관리 시스템 관련 신규 입사자 교육 진행",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 주기적인 코드 리뷰 진행 및 업무 관련 멘토링 진행"
-                ] })
+                "개발 팀 리드 및 멘토링",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- Figma 기반 임상 데이터 관리 시스템 구조도 설계 - 신규 입사자 교육 및 코드 리뷰, 업무 관련 멘토링 진행" })
               ] })
             ] })
           ] })
@@ -7510,130 +7487,51 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "풀스택 개발자" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-600 mb-4", children: "(주)세이프소프트 • 2019.07 - 2024.07" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-2 list-disc list-inside", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 list-disc list-inside", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "CDISC ODM-XML 1.3.2 인증 작업 완료",
+                "임상 데이터 관리 시스템 개발 및 표준화",
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- 총 7개 부문 중 6개 부문에 대한 인증 완료 ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("a", { className: "text-blue-600", href: "https://www.cdisc.org/resources/odm", children: "[Link]" }),
-                  " ",
+                  "- CDISC ODM-XML 1.3.2 인증 작업 완료 (총 7개 부문 중 6개 부문)",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- RESTful API 설계 및 개발: 시험 정보 API 제공 및 Swagger-UI 문서화",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "  임상 데이터 연동 및 eCRF 자동화",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- Builder 시스템 프론트엔드 구현 및 인터페이스 개발",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- MongoDB를 활용한 JSON 데이터 관리 및 XML 변환 유효성 검증",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 버전 관리 및 메타데이터 감사 추적(Audit Trail) 구현",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- SQL Parser를 활용한 Data Mapping 시스템 구현 및 DevExpress Report 연동",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 동적 Role & Privilege에 따른 Resource 접근 권한 제어 시스템 구축",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
                 ] })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "임상 데이터 관리 시스템 관련 RESTful API 설계 및 개발",
+                "교육 및 표준 업무 절차 관리 시스템 개발",
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- 스마트 임상 센터 - 빌더(Builder) 간 시험 정보 관련 API 제공 및 Docs 제공 (Swagger-UI) ",
+                  "- ISO 교육 관리 시스템 및 표준 업무 절차(SOP) 시스템 개발",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 스마트 임상 센터 - 전자 데이터 수집(EDC) 간 임상 데이터 연동 API 요청 및 eCRF 자동 입력"
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "임상 데이터 관리 시스템 관련 강의 진행 및 커리큘럼 설계",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- DT&CRO, DT&Sanomedics, 대한항암요법연구회 등 대상으로 임상 데이터 관리 시스템 소개 및 기능 가이드 진행",
+                  "- Apache Freemarker 및 Thymeleaf를 활용한 템플릿 기반 UI 구성",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 전자 결제 시스템 및 교육 관리 기능 구현",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 교육용 퀴즈 시스템 및 데이터 변경 감지 시스템 구현",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 중앙대학교, 단국대학교, 대한항암요법연구회 등 대상 시스템 배포",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
                 ] })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "임상 데이터 관리 시스템 설계 구축 및 개발, 유지보수",
+                "비임상 연구 및 모니터링 시스템 개발",
                 /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- Builder 시스템 프론트엔드 부분 기능 구현 및 인터페이스 작업",
+                  "- 의료기기 데이터 연동을 위한 비임상 연구실 시스템 인터페이스 개발",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- MongoDB를 이용한 Json 데이터 저장,수정 및 XML 변환에 대한 유효성 검증 작업",
+                  "- 시험 일정 관리 및 실시간 모니터링 시스템 구축",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 버전 관리 기능을 통한 버전 제어 구축 및 메타데이터에 대한 기록 관리(Audit Trail)",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 전자 데이터 수집(EDC)에 사용되는 중대한 이상사례 레포트 연동 작업 구축",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 독립적 평가 기능에 대한 프로세스 설계 및 기능 개발",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 전자 환자 자가 보고 결과(ePRO) 시스템 개발 ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "ISO 교육 관리 시스템 설계 및 개발 및 유지보수",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- Apache Freemarker를 이용한 Pagination 기반의 템플릿 형성",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 전자 결제 시스템을 이용한 외부 사용자 등록 및 Training 지연에 대한 처리 및 신규 SOP 등록 관리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- PDF단위의 SOP 등록 및 카테고리 및 상태 (Approved, Effective, Superseded)에 따른 문서 분류 기능 구축 ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 필수 교육 및 선택 교육 기능 제공, 1년 후 Refresh Training 제공",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- Offline Training 별도 등록 및 Training 기록 문서화 처리 작업 가능",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- Training 종료 후, 퀴즈 시스템 제공 (JSON 형태로 Import 기능 제공 및 자체 시스템에 의한 등록 가능)",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- GroupDocs를 활용한 PDF 데이터 워터마크 처리 및 페이징 단위로 SOP 문서에 대한 내용 처리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- ISO 데이터에 대한 신규 교육 등록 및 수강생 모집에 따른 교육 진행 시스템 구축",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 각 시스템 별 데이터 수정 기록 관리 (Auditing) 및 변경 데이터 감지 시스템 구축",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 중앙대학교, 단국대학교 대상으로 프로그램 배포 및 유지보수 관리 진행 (ISO 14155에 대한 교육 진행 완료)"
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "표준 업무 절차 시스템 개발 및 유지보수",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- Apache Freemarker를 이용한 Pagination 기반의 템플릿 형성",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 전자 결제 시스템을 이용한 외부 사용자 등록 및 Training 지연에 대한 처리 및 신규 SOP 등록 관리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- PDF단위의 SOP 등록 및 카테고리 및 상태 (Approved, Effective, Superseded)에 따른 문서 분류 기능 구축 ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 필수 교육 및 선택 교육 기능 제공, 1년 후 Refresh Training 제공",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- Offline Training 별도 등록 및 Training 기록 문서화 처리 작업 가능",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- Training 종료 후, 퀴즈 시스템 제공 (JSON 형태로 Import 기능 제공 및 자체 시스템에 의한 등록 가능)",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- GroupDocs를 활용한 PDF 데이터 워터마크 처리 및 페이징 단위로 SOP 문서에 대한 내용 처리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 내부 계열사 및 대한항암요법연구회 내 해당 시스템 배포 및 실시간 유지보수 제공"
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "교육 관리 시스템 개발 및 유지보수",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- Thymeleaf를 이용한 뷰 템플릿 및 레이아웃 구성",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 별도 메뉴 등록 관리 및 교육 시스템에 대한",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- GroupDocs를 활용한 교육 항목 페이징 단위 내용 처리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 교육 종료 후, 시험 문제 풀이 기능 제공 및 설문 조사 기능 제공 (Excel 문서 기반 Import 가능)",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 여러가지 문서 등을 등록 후, 관리자 승인 하에 통합 문서 관리 기능 제공 (Digital Binder)",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 내부 계열사 및 대한항암요법연구회 내 해당 시스템 배포 및 실시간 유지보수 제공"
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "비임상 연구실 시스템 인터페이스 설계 및 개발 및 유지보수 [의료기기 데이터 연동]",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- MFC > BCGSoft 기반의 Multiple Document Template 구성의 Module 프로그램 제공",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 위 Module 내용을 토대로 File 추적, Protocol 시리얼 연동 등의 작업 기능 제공",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- Excel 유형의 파일 데이터 생성 후, 내부 서버로 해당 파일 전송 및 보관",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 기존 클라이언트 내에 전송 후 파일 관리",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 내부 실험실 정보 관리 시스템을 통하여 데이터 정립"
-                ] })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "시험 일정 관리 시스템 설계 및 개발 및 모니터링 시스템 구축",
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
-                  "- JSP 기반의 뷰 템플릿 및 레이아웃 구성",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 장비 데이터 등록 및 등록된 장비에 따른 Schedule List 관리 기능 제공",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                  "- 등록된 장비의 Schedule에 따른 Monitoring Layout 제공 (실시간 데이터 상태 감시 기능)",
+                  "- 장비 데이터 등록 및 스케줄 관리 기능 구현",
                   /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
                 ] })
               ] })
@@ -7645,180 +7543,184 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "자동화시스템 개발자" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-600 mb-4", children: "(주)링크제니시스 • 2017.03 - 2019.05" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-2 list-disc list-inside", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "LG 자동화 모듈 테스트 관련 스크립트 개발",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- Python Module 기반의 Script 커스터마이징 작업 - Linux 기반의 OS 기반의 AVN 모듈에 대한 에이전트 작업 운용" })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "GM AVN 관련 OS 임베디드 개발",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- QNX (Unix 계열 OS) 관련 에이전트 쉘 프로그래밍 작업 - Android 기반의 에이전트 쉘 프로그래밍 작업" })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-                "LG 자동화 테스트 시스템 유지보수 및 추가기능 개발",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- LG ATS / Excelrunner (내부 시스템) 수정 및 GM AVN 테스트 상황에 맞게 커스터마이징 작업 - 기타 전력 장비 등 연동을 위한 추가 스크립트 개발" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "text-gray-600 space-y-3 list-disc list-inside", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              "자동화 테스트 시스템 개발",
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
+                "- LG 자동화 모듈 테스트용 Python 기반 스크립트 개발",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- Linux 기반 AVN 모듈 에이전트 운용",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- QNX(Unix 계열 OS) 및 Android 기반 에이전트 쉘 프로그래밍",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- LG ATS/Excelrunner 시스템 커스터마이징 및 전력 장비 연동 스크립트 개발",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
               ] })
-            ] })
+            ] }) })
           ] })
         ] }) })
       ] })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 bg-white/50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "프로젝트" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "주요 프로젝트" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "임상 데이터 관리 시스템",
             /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://cdms.redpine.io/login", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 React / Thymeleaf 및 Redis Server를 활용한 종합적인 임상 데이터 관리 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "총 5개의 모놀리스(Monolithic) SaaS 웹 서비스와 MS SQL Server 및 MongoDB로 데이터 관리." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "JAXB를 통해 XML-Class간 변환 처리를 수행하고, JPA, JPQL기반의 쿼리 응용과 JEXL 라이브러리를 활용한 웹 사이트 내 컴파일 기능을 수행한 메타데이터 구축 및 버전 관리가 가능" })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 React/Thymeleaf 및 Redis Server를 활용한 종합적인 임상 데이터 관리 시스템." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "CDISC ODM-XML 표준 인증 획득으로 국제 호환성 확보" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Builder-EDC 간 API 연동으로 데이터 입력 자동화 구현" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "버전 관리 및 감사 추적 시스템으로 데이터 무결성 보장" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "React" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Thymeleaf" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MongoDB" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm", children: "Redis Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm", children: "NGiNX" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JAXB" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JPA/JPQL" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JEXL" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JPA/JPQL" })
           ] })
         ] }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: [
-            "ISO 관리 시스템",
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
+            "ISO 교육 관리 시스템",
             /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://isoms.safesoft.co.kr/", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 Apache Freemarker, JSP를 활용한 교육 관리 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "전자 결제 기능을 비롯 하여, SOP 문서 열람과 ISO 문서 열람 및 교육을 총괄할 수 있는 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "사용자가 관리자에게 직접 ROLE을 요청할 수 있고, 모든 메뉴에 대한 내용을 data-envers 모듈을 활용하여 기록함." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "GroupDocs 컴포넌트를 활용하여 문서 변환 및 워터마크를 생성하여 문서 관리를 수행함." })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Apache Freemarker를 활용한 ISO 규정 교육 관리 시스템" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "교육 관리 자동화로 ISO 규정 준수율 98% 달성" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "전자 결제 시스템 도입으로 문서 승인 과정 60% 단축" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "중앙대학교, 단국대학교 등 여러 기관에 성공적 시스템 구축" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Apache Freemarker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "JSP" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "PDF.js" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Envers" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "GroupDocs" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "GroupDocs" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Envers" })
           ] })
         ] }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "전자 표준 업무 절차 시스템",
             /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "http://esop.dtncro.co.kr", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 Apache Freemarker, JSP를 활용한 표준 업무 절차 문서 관리 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "전자 결제 기능을 비롯 하여, SOP 문서 열람을 수 있는 시스템" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "GroupDocs 컴포넌트를 활용하여 문서 변환 및 워터마크를 생성하여 문서 관리를 수행함" })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Apache Freemarker를 활용한 표준 업무 절차 문서 관리 시스템" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "전자 결제 기능과 SOP 문서 열람 시스템으로 문서 관리 효율화" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "모든 메뉴에 대한 내용을 data-envers 모듈을 활용하여 변경 이력 추적" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "내부 계열사 및 대한항암요법연구회 내 시스템 배포 및 유지보수" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Apache Freemarker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "JSP" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "PDF.js" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "GroupDocs" })
           ] })
         ] }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "전자 교육 관리 시스템",
             /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://lms.dtncro.co.kr/", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 Thymeleaf를 활용한 교육 관리 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "교육을 등록 및 수강할 수 있고, 수강 종료 후 수료증을 발급할 수 있는 시스템" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "디지털 바인더 기능을 활용해, 교육 기록 및 CV(Curriculum Vitae) 등의 문서를 통합하여 관리" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "GroupDocs 컴포넌트를 활용하여 문서 변환 및 워터마크를 생성하여 문서 관리를 수행함" })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Thymeleaf를 활용한 교육 관리 시스템" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "교육 등록 및 수강, 수료증 발급 자동화 시스템" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "디지털 바인더 기능으로 교육 기록 및 문서 통합 관리" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "설문 조사 및 시험 기능 통합으로 교육 효과 측정 개선" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Apache Freemarker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "PDF.js" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "GroupDocs" })
-          ] })
-        ] }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "의료기기-비임상 인터페이스" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "BCGSoft 기반의 MFC 모듈로 의료기기 데이터 그리드 및 전송 모듈 구축" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 Thymeleaf를 활용하여 서버 데이터 전송 인터페이스 백엔드 구축." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "비임상 SNED 데이터 시스템에 의료기기 데이터를 전달하는 역할을 수행" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "취합된 데이터는 MS SQL Server기반 비임상 관련 시스템의 데이터베이스에 사용됨" })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "MFC" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Thymeleaf" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "BCGSoft" })
-          ] })
-        ] }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "시험 일정 관리 시스템" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600 mb-4 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Spring Boot와 JSP를 활용한 시험 일정 관리 시스템." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "MS SQL Server 기반의 데이터베이스 구축" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "Apache POI 라이브러리를 이용한 엑셀 데이터 등록 기능 수행" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(SquareWithText, { children: "CanvasAPI를 통한 장비 데이터 모니터링 시스템 구축" })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "JSP" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Apache POI" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "CanvasAPI" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "GroupDocs" })
           ] })
         ] }) })
       ] })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "기술 참조" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-gray-800", children: "개발 환경" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 flex flex-col items-start justify-center", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://ko.legacy.reactjs.org/favicon.ico", logoText: "React", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "React" }),
-            " | ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "포트폴리오 기반 언어로 사용" })
-          ] }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://lucide.dev/logo.light.svg", logoText: "Lucide-react", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "lucide-react" }),
-              " |  ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "텍스트 아이콘 사용" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "역량 및 강점" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-gray-800", children: "기술적 역량" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-4 list-disc list-inside", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "대용량 데이터 처리" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "효율적인 데이터베이스 설계 및 쿼리 최적화를 통한 대용량 임상 데이터 처리 능력" })
             ] }),
-            " "
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://ko.vite.dev/logo.svg", logoText: "Vite", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "Vite" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "풀스택 개발" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "백엔드부터 프론트엔드까지 전체 개발 생애주기 관리 가능" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "시스템 통합" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "이기종 시스템 간의 효율적인 통합 및 데이터 동기화 구현" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "임상 데이터 표준화" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "CDISC ODM-XML 등 국제 표준에 맞춘 임상 데이터 처리 및 인증 경험" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-gray-800", children: "소프트 스킬" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-4 list-disc list-inside", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "리더십" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "개발 팀 리드 및 신규 입사자 교육, 코드 리뷰 등 팀 역량 강화 경험" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "문제 해결 능력" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "복잡한 기술적 문제를 체계적으로 분석하고 해결하는 능력" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "팀 협업" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "Agile 환경에서의 효과적인 커뮤니케이션과 협업 능력" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-gray-700", children: "변화 적응력" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "ml-6 mt-1 text-sm", children: "빠르게 변화하는 요구사항과 기술 환경에 유연하게 대응하는 능력" })
+            ] })
+          ] })
+        ] })
+      ] })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 bg-white/50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "기술 참조" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-4xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-6 text-gray-800", children: "개발 환경" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://ko.legacy.reactjs.org/favicon.ico", logoText: "React", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "React" }),
             " | ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "포트폴리오 프로젝트를 빌드 하기위한 Tool" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "포트폴리오 기반 언어로 사용" })
+          ] }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://lucide.dev/logo.light.svg", logoText: "Lucide-react", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "lucide-react" }),
+            " | ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "텍스트 아이콘 사용" })
+          ] }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://ko.vite.dev/logo.svg", logoText: "Vite", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "Vite" }),
+            " | ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "포트폴리오 프로젝트를 빌드하기 위한 Tool" })
           ] }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://bolt.new/static/favicon.svg", logoText: "Bolt New", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "Bolt New" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "Bolt New" }),
             " | ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "포트폴리오 초안 작업 진행" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "포트폴리오 초안 작업 진행" })
           ] }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://tailwindcss.com/favicon.ico", logoText: "Tailwind CSS", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "Tailwind CSS" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "Tailwind CSS" }),
             " | ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "레이아웃 디자인에 사용된 CSS" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "레이아웃 디자인에 사용된 CSS" })
           ] }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(LogoWithText, { logo: "https://github.githubassets.com/favicons/favicon.svg", logoText: "gh-pages", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-2xl min-w-44 inline-flex", children: "gh-pages" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { className: "text-lg min-w-44 inline-flex", children: "gh-pages" }),
             " | ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "깃허브 페이지에 빌드하기 위한 라이브러리" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "깃허브 페이지에 빌드하기 위한 라이브러리" })
           ] }) })
         ] })
       ] }) })
