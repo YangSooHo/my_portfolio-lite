@@ -1,5 +1,6 @@
 import {Award, BookOpen, Briefcase, Code2, ExternalLink, Github, Linkedin, Mail, Settings,} from 'lucide-react';
 import {ReactNode} from "react";
+import {Tooltip} from "@mui/material";
 
 function App() {
 
@@ -211,9 +212,18 @@ function App() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
                     임상 데이터 관리 시스템
-                    <a href="https://cdms.redpine.io/login" className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+
+                    <Tooltip title={'Builder'}>
+                      <a href="https://builder.redpine.io/login" target={"_blank"} className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+                        <ExternalLink size={20} className="text-blue-600" />
+                      </a>
+                    </Tooltip>
+
+                    <Tooltip title={'EDC'}>
+                    <a href="https://cdms.redpine.io/login" target={"_blank"} className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
                       <ExternalLink size={20} className="text-blue-600" />
                     </a>
+                    </Tooltip>
                   </h3>
                   <div className="text-gray-600 mb-4 text-sm">
                     <p className="mb-2">Spring Boot와 React/Thymeleaf 및 Redis Server를 활용한 종합적인 임상 데이터 관리 시스템.</p>
@@ -236,7 +246,7 @@ function App() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
                     ISO 교육 관리 시스템
-                    <a href="https://isoms.safesoft.co.kr/" className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+                    <a href="https://isoms.safesoft.co.kr/"  target={"_blank"}className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
                       <ExternalLink size={20} className="text-blue-600" />
                     </a>
                   </h3>
@@ -260,7 +270,7 @@ function App() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
                     전자 표준 업무 절차 시스템
-                    <a href="http://esop.dtncro.co.kr" className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+                    <a href="http://esop.dtncro.co.kr" target={"_blank"} className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
                       <ExternalLink size={20} className="text-blue-600" />
                     </a>
                   </h3>
@@ -283,7 +293,7 @@ function App() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
                     전자 교육 관리 시스템
-                    <a href="https://lms.dtncro.co.kr/" className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
+                    <a href="https://lms.dtncro.co.kr/" target={"_blank"} className="ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors">
                       <ExternalLink size={20} className="text-blue-600" />
                     </a>
                   </h3>
