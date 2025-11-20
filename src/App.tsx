@@ -66,11 +66,13 @@ function App() {
                 <ul className="text-gray-600 space-y-3 text-center">
                   <li>JavaScript / TypeScript</li>
                   <li>React / Next.js</li>
+                  <li>VueJS (Vue3)</li>
                   <li>HTML5 / CSS3</li>
                   <li>Thymeleaf / JSP</li>
                   <li>Apache Freemarker</li>
                   <li>Tailwind CSS / Bootstrap</li>
                   <li>Ant Design</li>
+                  <li>Radix Vue</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl border border-blue-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
@@ -80,8 +82,9 @@ function App() {
                   <li>Java / Spring Boot</li>
                   <li>Mybatis</li>
                   <li>MongoDB</li>
-                  <li>MySQL</li>
+                  <li>MySQL / MariaDB</li>
                   <li>MS SQL Server</li>
+                  <li>PostgreSQL</li>
                   <li>Python</li>
                   <li>Node.js</li>
                   <li>RESTful API</li>
@@ -91,13 +94,14 @@ function App() {
                 <BookOpen className="w-12 h-12 mb-6 text-blue-600 mx-auto" />
                 <h3 className="text-xl font-semibold mb-4 text-center text-gray-800">DevOps</h3>
                 <ul className="text-gray-600 space-y-3 text-center">
+                  <li>CSP (AWS, AZURE, SCP)</li>
                   <li>Jenkins</li>
-                  <li>MS Azure / Docker</li>
-                  <li>GitHub Actions</li>
+                  <li>ArgoCD</li>
+                  <li>Docker</li>
                   <li>Linux / Shell Script</li>
-                  <li>Monitoring / Logging</li>
                   <li>NGiNX</li>
                   <li>Redis Server</li>
+                  <li>Hazelcast</li>
                 </ul>
               </div>
             </div>
@@ -109,6 +113,28 @@ function App() {
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">업무 경력</h2>
             <div className="max-w-3xl mx-auto space-y-12">
+
+              <div className="bg-white p-8 rounded-2xl border border-blue-200 shadow-lg">
+                <div className="flex items-start gap-4">
+                  <Briefcase className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2 text-gray-800">풀스택 개발자</h3>
+                    <p className="text-blue-600 mb-4">프리랜서(삼성SDS) • 2025.06 - Ongoing</p>
+                    <ul className="text-gray-600 space-y-3 list-disc list-inside">
+                      <li>
+                        클라우드 접속 관리 시스템
+                        <div className="ml-6 mt-1 text-sm text-gray-500">
+                          - 고도화 개발 진행<br/>
+                          - Vue3 관련 공용 컴포넌트 제작 및 Dev Center 페이지 제작<br/>
+                          - User, Role 관리 페이지 및 Impersonation Login 기능 개발<br/>
+                          - AWS, SCP Console Log 배치 프로세스 개발 (Hazelcast Cache 사용)<br/>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-white p-8 rounded-2xl border border-blue-200 shadow-lg">
                 <div className="flex items-start gap-4">
                   <Briefcase className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
@@ -119,16 +145,16 @@ function App() {
                       <li>
                         임상 데이터 관리 시스템 관리 및 유지보수
                         <div className="ml-6 mt-1 text-sm text-gray-500">
-                          - 관리자 콘솔(Admin Console) 및 의료 코딩 관련 사전(MedDRA, ATC Index 등) 관리
-                          - 빌더 시스템(Builder) 및 전자 데이터 수집(EDC) 시스템 운영 및 유지보수
-                          - 장애 대응 및 버그 수정, 시스템 업데이트 수행
+                          - 관리자 콘솔(Admin Console) 및 의료 코딩 관련 사전(MedDRA, ATC Index 등) 관리<br/>
+                          - 빌더 시스템(Builder) 및 전자 데이터 수집(EDC) 시스템 운영 및 유지보수<br/>
+                          - 장애 대응 및 버그 수정, 시스템 업데이트 수행<br/>
                         </div>
                       </li>
                       <li>
                         개발 팀 리드 및 멘토링
                         <div className="ml-6 mt-1 text-sm text-gray-500">
-                          - Figma 기반 임상 데이터 관리 시스템 구조도 설계
-                          - 신규 입사자 교육 및 코드 리뷰, 업무 관련 멘토링 진행
+                          - Figma 기반 임상 데이터 관리 시스템 구조도 설계<br/>
+                          - 신규 입사자 교육 및 코드 리뷰, 업무 관련 멘토링 진행<br/>
                         </div>
                       </li>
                     </ul>
@@ -211,6 +237,27 @@ function App() {
               <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
+                    클라우드 접속 관리 시스템
+                  </h3>
+                  <div className="text-gray-600 mb-4 text-sm">
+                    <p className="mb-2">Spring Boot와 VueJS 및 Hazelcast Server를 활용한 클라우드 접속 관리 시스템.</p>
+                    <p className="mb-2">클라우드 플랫폼 관련 Console 및 Resource 접속 제어</p>
+                    <p className="mb-2">NodeJS 기반 Agent 모듈 설치를 통해 Client - Server 간 접속 지원 (VM, DB 등)</p>
+                  </div>
+                  <div className="flex gap-2 flex-wrap">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Spring Boot</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">VueJS(Vue3)</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">PostgreSQL</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Hazelcast</span>
+                    <span className="px-3 py-1 bg-amber-100 text-black rounded-full text-sm">Spring Batch</span>
+                    <span className="px-3 py-1 bg-amber-100 text-black rounded-full text-sm">Mybatis</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all">
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold mb-2 text-gray-800 flex items-center">
                     임상 데이터 관리 시스템
 
                     <Tooltip title={'Builder'}>
@@ -236,8 +283,10 @@ function App() {
                     <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">React</span>
                     <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">MongoDB</span>
                     <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">MS SQL Server</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Redis</span>
                     <span className="px-3 py-1 bg-amber-100 text-black rounded-full text-sm">JAXB</span>
                     <span className="px-3 py-1 bg-amber-100 text-black rounded-full text-sm">JPA/JPQL</span>
+                    <span className="px-3 py-1 bg-amber-100 text-black rounded-full text-sm">Mybatis</span>
                   </div>
                 </div>
               </div>
@@ -413,7 +462,7 @@ function App() {
         {/* Footer */}
         <footer className="py-8 bg-blue-50">
           <div className="container mx-auto px-4 text-center text-gray-600">
-            <p>© 2025 양수호. All rights reserved.</p>
+            <p className="text-lg">© 2025 양수호. All rights reserved.</p>
           </div>
         </footer>
       </div>
