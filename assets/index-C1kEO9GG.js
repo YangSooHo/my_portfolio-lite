@@ -15126,11 +15126,13 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 text-center", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "JavaScript / TypeScript" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "React / Next.js" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "VueJS (Vue3)" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "HTML5 / CSS3" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Thymeleaf / JSP" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Apache Freemarker" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Tailwind CSS / Bootstrap" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Ant Design" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Ant Design" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Radix Vue" })
           ] })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1", children: [
@@ -15140,8 +15142,9 @@ function App() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Java / Spring Boot" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Mybatis" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MongoDB" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MySQL" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MySQL / MariaDB" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MS SQL Server" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "PostgreSQL" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Python" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Node.js" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "RESTful API" })
@@ -15151,13 +15154,14 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "w-12 h-12 mb-6 text-blue-600 mx-auto" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-4 text-center text-gray-800", children: "DevOps" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 text-center", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "CSP (AWS, AZURE, SCP)" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Jenkins" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "MS Azure / Docker" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "GitHub Actions" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "ArgoCD" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Docker" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Linux / Shell Script" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Monitoring / Logging" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "NGiNX" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Redis Server" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Redis Server" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "Hazelcast" })
           ] })
         ] })
       ] })
@@ -15169,15 +15173,47 @@ function App() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(Briefcase, { className: "w-8 h-8 text-blue-600 flex-shrink-0 mt-1" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "풀스택 개발자" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-600 mb-4", children: "프리랜서(삼성SDS) • 2025.06 - Ongoing" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "text-gray-600 space-y-3 list-disc list-inside", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
+              "클라우드 접속 관리 시스템",
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
+                "- 고도화 개발 진행",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- Vue3 관련 공용 컴포넌트 제작 및 Dev Center 페이지 제작",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- User, Role 관리 페이지 및 Impersonation Login 기능 개발",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                "- AWS, SCP Console Log 배치 프로세스 개발 (Hazelcast Cache 사용)",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
+              ] })
+            ] }) })
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-white p-8 rounded-2xl border border-blue-200 shadow-lg", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Briefcase, { className: "w-8 h-8 text-blue-600 flex-shrink-0 mt-1" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800", children: "풀스택 개발자" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-600 mb-4", children: "(주)디티앤씨알오 • 2024.07 - 2024.12" }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-gray-600 space-y-3 list-disc list-inside", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
                 "임상 데이터 관리 시스템 관리 및 유지보수",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- 관리자 콘솔(Admin Console) 및 의료 코딩 관련 사전(MedDRA, ATC Index 등) 관리 - 빌더 시스템(Builder) 및 전자 데이터 수집(EDC) 시스템 운영 및 유지보수 - 장애 대응 및 버그 수정, 시스템 업데이트 수행" })
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
+                  "- 관리자 콘솔(Admin Console) 및 의료 코딩 관련 사전(MedDRA, ATC Index 등) 관리",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 빌더 시스템(Builder) 및 전자 데이터 수집(EDC) 시스템 운영 및 유지보수",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 장애 대응 및 버그 수정, 시스템 업데이트 수행",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
+                ] })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
                 "개발 팀 리드 및 멘토링",
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: "- Figma 기반 임상 데이터 관리 시스템 구조도 설계 - 신규 입사자 교육 및 코드 리뷰, 업무 관련 멘토링 진행" })
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ml-6 mt-1 text-sm text-gray-500", children: [
+                  "- Figma 기반 임상 데이터 관리 시스템 구조도 설계",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "- 신규 입사자 교육 및 코드 리뷰, 업무 관련 멘토링 진행",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {})
+                ] })
               ] })
             ] })
           ] })
@@ -15264,10 +15300,26 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text", children: "주요 프로젝트" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: "클라우드 접속 관리 시스템" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 VueJS 및 Hazelcast Server를 활용한 클라우드 접속 관리 시스템." }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "클라우드 플랫폼 관련 Console 및 Resource 접속 제어" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "NodeJS 기반 Agent 모듈 설치를 통해 Client - Server 간 접속 지원 (VM, DB 등)" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2 flex-wrap", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "Spring Boot" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "VueJS(Vue3)" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "PostgreSQL" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "Hazelcast" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Spring Batch" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Mybatis" })
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "임상 데이터 관리 시스템",
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Tooltip, { title: "Builder", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://builder.redpine.io/login", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Tooltip, { title: "EDC", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://cdms.redpine.io/login", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Tooltip, { title: "Builder", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://builder.redpine.io/login", target: "_blank", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Tooltip, { title: "EDC", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://cdms.redpine.io/login", target: "_blank", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) }) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 React/Thymeleaf 및 Redis Server를 활용한 종합적인 임상 데이터 관리 시스템." }),
@@ -15280,14 +15332,16 @@ function App() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm", children: "React" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MongoDB" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "MS SQL Server" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm", children: "Redis" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JAXB" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JPA/JPQL" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "JPA/JPQL" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 bg-amber-100 text-black rounded-full text-sm", children: "Mybatis" })
           ] })
         ] }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "ISO 교육 관리 시스템",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://isoms.safesoft.co.kr/", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://isoms.safesoft.co.kr/", target: "_blank", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Apache Freemarker를 활용한 ISO 규정 교육 관리 시스템" }),
@@ -15306,7 +15360,7 @@ function App() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "전자 표준 업무 절차 시스템",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "http://esop.dtncro.co.kr", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "http://esop.dtncro.co.kr", target: "_blank", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Apache Freemarker를 활용한 표준 업무 절차 문서 관리 시스템" }),
@@ -15324,7 +15378,7 @@ function App() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "group bg-white rounded-2xl overflow-hidden border border-blue-200 shadow-lg hover:shadow-xl transition-all", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-semibold mb-2 text-gray-800 flex items-center", children: [
             "전자 교육 관리 시스템",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://lms.dtncro.co.kr/", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://lms.dtncro.co.kr/", target: "_blank", className: "ml-2 bg-white/80 rounded-full inline-block hover:bg-white transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-600" }) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-gray-600 mb-4 text-sm", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mb-2", children: "Spring Boot와 Thymeleaf를 활용한 교육 관리 시스템" }),
@@ -15426,7 +15480,7 @@ function App() {
         ] })
       ] }) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "py-8 bg-blue-50", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 text-center text-gray-600", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2025 양수호. All rights reserved." }) }) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "py-8 bg-blue-50", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 text-center text-gray-600", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg", children: "© 2025 양수호. All rights reserved." }) }) })
   ] }) });
 }
 createRoot(document.getElementById("root")).render(
